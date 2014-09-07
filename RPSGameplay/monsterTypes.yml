@@ -1,0 +1,21 @@
+#####Here you can choose which mob is rare, epic or a boss#####
+#You can see the list of theses Entity names at 
+rare label: [rare]
+rare color: YELLOW
+Rare monsters:
+     -BLAZE
+     -MAGMA_CUBE
+     -SLIME
+     -CAVE_SPIDER
+epic label: [epic]
+epic color: GREEN
+Epic monsters:
+     -SILVERFISH
+     -ENDERMAN
+     -WITHER_SKULL
+     -GHAST
+boss label: [BOSS]
+boss color: LIGHT_PURPLE
+Bosses:
+     -ENDER_DRAGON
+     -WITHER

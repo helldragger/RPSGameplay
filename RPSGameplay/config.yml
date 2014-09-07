@@ -1,0 +1,115 @@
+general:
+    use permissions: false
+    #En/Disable Debug mode (for developping purpose only)
+    debug mode enabled: true
+    #Choose to show your damage in chat when you hit or not
+    show damage dealt: true
+    
+    check for updates: true
+    #if new updates are available and checking is enabled, choose if the next version will be automatically downloaded for the next launch. WARNING MAY CAUSE INCOMPATIBILITY ISSUES BETWEEN SERVER'S VERSION AND UPDATE'S.
+    download new updates: false
+stats:
+    #Choose how many monsters can exist on the whole world (peacefull worlds are not affected)
+    max spawned monsters cap: 200
+    #Choose how many monster can spawn NATURALLY near a player in the same time.
+    max spawning monsters cap near a player: 25
+    #Choose how many ticks are between each world's try to spawn a monster.
+    monsters spawn rate in ticks: 3
+    #Choose when combos will make sound effects and appears in chat
+    combo bursts: [5,10,15,20,30,50,75,100]
+    combo reset time in secs: 2
+    #Choose the base attack rate (cooldown delay between attacks) in secs
+    initial attack speed: 0.7
+    #Choose the life a player have with his MAXHP stat is not modified. MUST BE GREATER THAN 0!
+    base player life in half-hearts: 20
+    default stats:
+     #Choose the speed of health recovering, 100% = not modified, above speed up, etc..
+     HPRecovery: 100
+     #Choose the percentage of damage dealed that you steal in life.
+     HPDrain: 0
+
+     #Choose how many default mana must have a player
+     MaximumMP: 75
+     #Same as health recovering.
+     MPRecovery: 100
+     #Choose how many mana you should recover when you kill anybody.
+     MPRefillWhenKill: 0
+
+
+     #Choose the base defence the player have without any equipment. 
+     DEF: 2
+     #Determine how many DEF bonus you will have every 2 XP levels on you
+     DEFLevelBonus: 1
+     #Decide the percentage of damage the player take when hit
+     DamageTaken: 100
+     #Choose the percentage of resistance against magic damage
+     MagicResist: 0
+     #Choose the percentage of damage taken  the damager will get in return 
+     DamageReflect: 0
+     #Determine the percentage of speed the player will have when walking normally
+     Evasion: 100
+     #Determine the percentage of chance the ^layer have to dodge taken hits 
+     DodgeChance: 20
+     #Determine the percentage of chance the player have to negate status effects
+     NegateStatusEffectChance: 5
+     #Poison resistance percentage will decrease the effect of POISON damage
+     PoisonResistance: 10
+     #Weaken resistance percentage will decrease the effect of Weaken status
+     WeakenResistance: 10
+     #Blind resistance percentage will decrease the effect of Blindness status
+     BlindResistance: 10
+     #InvincibilityBuff percentage will determine the chance of having invincibilitybuff when you are hit and without buff
+     InvincibilityBuffChanceWhenNoBuff: 0
+
+
+     #Combo percentage will determine the damage bonus per hit in a combo. 1% will add 1% bonus damage at the first hit in the combo, 2% to the second, etc.. 
+     Combo: 1
+
+     #Determmine the attack stat of the player without equipment
+     ATK: 3
+     #Determine how many ATK bonus you will have every 2 XP levels on you
+     ATKLevelBonus: 1
+     #Determine how many chance you have to do a fatality (instant kill)
+     InstantKillChance: 0
+     #Determine the percentage of bonus damage done to bosses
+     DamageVSBosses: 0
+     #Determine the percentage of def ignored when you hit 
+     IgnoreDEF: 0
+     #Determine the percentage of chance you have to inflict Poison to your aim
+     PoisonChance: 0
+     #Change the duration of your inflicted poison status 100% = 
+     PoisonDuration: 0
+     #Determine the percentage of chance you have to inflict Blind to your aim
+     BlindChance: 0
+     BlindDuration: 0
+     #Determine the percentage of chance you have to inflict Weaken to your aim
+     WeakenChance: 0
+     WeakenDuration: 0
+     #Determine the percentage of chance you have to inflict Stun to your aim
+     StunChance: 0
+     StunDuration: 0
+
+     #Determine the percentage of your total damage inflicted when you hit. 
+     Accuracy: 90
+     #Determine the percentage of chance of dealing a critical hit
+     CriticalChance: 15
+     #Determine the percentage of damage done without bonus on a critical hit.
+     CriticalDamage: 30
+
+     #Determine your chance to hit you opponent 100% = you cannot miss your hit
+     HitChance: 80
+     #Determine your chance to make a double hit.
+     DoubleHitChance: 0
+
+     #Determine the percentage of XP you gain (if you put 80% and earn 1000 xp ingame, you will have only 800, and then with 1000% you will earn 10x more. etc.
+     EXPGain: 100
+     #The same thing but with Vault Money
+     MoneyGain: 100
+     #Same thing with monster's droprate.
+     DropRate: 100
+     #The chance of having a rare monster spawning near you.
+     RareMonsterRate: 30
+     # the chance of having an Epic monster spawning near you.
+     EpicMonsterRate: 10
+     #the chance you have to don't loot your inventory and xp when you die.
+     DeathWithoutLoot: 0
