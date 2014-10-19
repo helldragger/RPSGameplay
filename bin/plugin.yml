@@ -1,0 +1,18 @@
+#
+#YAML pour MineCity et RolePlaySpeciality
+#
+
+
+name: RolePlaySpecialityGameplay
+main: helldragger.RPSGameplay.RPSGPlugin
+version: 0.45
+author: Helldragger (RolePlaySpeciality creator)
+softdepend: [RolePlaySpeciality,bPermissions] 
+
+commands:
+ rpg:
+  description: Commande principale de la partie Gameplay.
+  usage: /<command>
+  
+permissions:
+ 
